@@ -1,0 +1,23 @@
+[
+    {
+        "model": "todo.tag",
+        "pk": 1,
+        "fields": {
+            "name": "Важное"
+        }
+    },
+    {
+        "model": "todo.tag",
+        "pk": 2,
+        "fields": {
+            "name": "Работа"
+        }
+    },
+    {
+        "model": "todo.tag",
+        "pk": 3,
+        "fields": {
+            "name": "Учеба"
+        }
+    }
+]

@@ -12,6 +12,6 @@ RUN poetry config virtualenvs.create false \
 
 COPY . .
 
-EXPOSE 8000
+RUN chmod +x ./to_do_list/load_fixtures.sh
 
-RUN python to_do_list/manage.py migrate
+EXPOSE 8000

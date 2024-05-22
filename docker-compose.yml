@@ -14,7 +14,10 @@ services:
 
   web:
     build: .
-    command: python to_do_list/manage.py runserver 0.0.0.0:8000
+    command: >
+      sh -c "python to_do_list/manage.py migrate &&
+             ./to_do_list/load_fixtures.sh &&
+             python ./to_do_list/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app
     ports:
