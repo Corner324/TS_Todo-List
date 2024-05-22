@@ -26,8 +26,8 @@ from drf_yasg import openapi
 from rest_framework import permissions
 
 router = routers.DefaultRouter()
-router.register(r"todo", TodoViewSet, basename="todo")
-router.register(r"tag", TagViewSet, basename="tag")
+router.register(r"todos", TodoViewSet, basename="todo")
+router.register(r"tags", TagViewSet, basename="tag")
 
 schema_view = get_schema_view(
     openapi.Info(
