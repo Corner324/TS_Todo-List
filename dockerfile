@@ -14,4 +14,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["python to_do_list/manage.py migrate"]
+RUN python to_do_list/manage.py migrate
