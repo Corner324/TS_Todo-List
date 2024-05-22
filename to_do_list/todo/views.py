@@ -1,10 +1,8 @@
 from rest_framework import viewsets, filters
+from django_filters.rest_framework import DjangoFilterBackend
 
 from .serializers import TagSerializer, TodoSerializer
-
 from .models import Tag, Task
-
-from django_filters.rest_framework import DjangoFilterBackend
 
 
 class TodoViewSet(viewsets.ModelViewSet):

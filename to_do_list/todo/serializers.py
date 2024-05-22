@@ -1,15 +1,15 @@
 from .models import Task, Tag
 from rest_framework import serializers
 
+
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
-        fields = '__all__'
+        fields = "__all__"
 
 
 class TodoSerializer(serializers.ModelSerializer):
-    tags = TagSerializer(many=True)
-
+    tags = serializers.PrimaryKeyRelatedField(queryset=Tag.objects.all(), many=True)
 
     class Meta:
         model = Task
