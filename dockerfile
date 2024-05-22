@@ -12,9 +12,6 @@ RUN poetry config virtualenvs.create false \
 
 COPY . .
 
-RUN python to_do_list/manage.py makemigrations
-RUN 
-
 EXPOSE 8000
 
 CMD ["python to_do_list/manage.py migrate"]

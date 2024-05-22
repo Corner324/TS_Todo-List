@@ -1,0 +1,122 @@
+[
+    {
+        "model": "todo.task",
+        "pk": 1,
+        "fields": {
+            "title": "Сделать ДЗ",
+            "description": "Выполнить ДЗ по математике до понедельника",
+            "due_date": "2024-05-12",
+            "is_completed": false,
+            "created_at": "2024-05-21T19:01:06.910759Z",
+            "tags": [1]
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 2,
+        "fields": {
+            "title": "Погулять с собакой",
+            "description": "Выгулять мою собаку в парке",
+            "due_date": "2024-05-11",
+            "is_completed": false,
+            "created_at": "2024-05-22T07:58:24.146973Z",
+            "tags": []
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 3,
+        "fields": {
+            "title": "Купить продукты",
+            "description": "Сходить в магазин и купить продукты на неделю",
+            "due_date": "2024-05-13",
+            "is_completed": false,
+            "created_at": "2024-05-22T08:00:00.000000Z",
+            "tags": [2]
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 4,
+        "fields": {
+            "title": "Посетить врача",
+            "description": "Записаться и посетить терапевта",
+            "due_date": "2024-05-14",
+            "is_completed": false,
+            "created_at": "2024-05-22T09:00:00.000000Z",
+            "tags": [1, 2]
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 5,
+        "fields": {
+            "title": "Убраться в квартире",
+            "description": "Провести генеральную уборку в квартире",
+            "due_date": "2024-05-15",
+            "is_completed": false,
+            "created_at": "2024-05-22T10:00:00.000000Z",
+            "tags": []
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 6,
+        "fields": {
+            "title": "Прочитать книгу",
+            "description": "Прочитать новую книгу по саморазвитию",
+            "due_date": "2024-05-16",
+            "is_completed": false,
+            "created_at": "2024-05-22T11:00:00.000000Z",
+            "tags": [1]
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 7,
+        "fields": {
+            "title": "Посмотреть фильм",
+            "description": "Посмотреть рекомендованный фильм",
+            "due_date": "2024-05-17",
+            "is_completed": false,
+            "created_at": "2024-05-22T12:00:00.000000Z",
+            "tags": []
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 8,
+        "fields": {
+            "title": "Приготовить ужин",
+            "description": "Приготовить особенный ужин для семьи",
+            "due_date": "2024-05-18",
+            "is_completed": false,
+            "created_at": "2024-05-22T13:00:00.000000Z",
+            "tags": [2]
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 9,
+        "fields": {
+            "title": "Позвонить друзьям",
+            "description": "Созвониться с друзьями, которых давно не видел",
+            "due_date": "2024-05-19",
+            "is_completed": false,
+            "created_at": "2024-05-22T14:00:00.000000Z",
+            "tags": []
+        }
+    },
+    {
+        "model": "todo.task",
+        "pk": 10,
+        "fields": {
+            "title": "Написать статью",
+            "description": "Написать и опубликовать статью в блоге",
+            "due_date": "2024-05-20",
+            "is_completed": false,
+            "created_at": "2024-05-22T15:00:00.000000Z",
+            "tags": [1, 2]
+        }
+    }
+]
